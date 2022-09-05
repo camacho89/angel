@@ -1,0 +1,75 @@
+Proyecto 1 : CALCULADORA CIENTÍFICA
+
+NOMBRE : ANGEL ADAHIR CAMACHO MARTÍNEZ
+
+PROFESOR LEONARDO
+
+ESCUELA: CETis 64
+Centro de estudios tecnológico industrial y de servicios
+
+git remoto agregar origen https://github.com/camacho89/angel.git
+ git rama -M principal 
+git push -u origen principal
+
+https://www.casiocalculadoras.mx/DX-120B.html
+
+If(!txtpantalla.getText.equalts('')
+Dato1=txtpantalla.get.equalts
+Signo="-";
+
+String cadena
+Cadena=txt pantalla.getText();
+If (cadena.length()>0{
+Txtpantalla.setText(cadena);
+
+String cadena;
+
+Cadena=txtpantalla.getText();
+If(cadena.length()<0){
+} else {
+  If (existepunto(txtpantalla.getText())){
+   Txtpantalla.setText(txt pantalla.getText()+".");
+   
+    }
+ 
+{
+
+String resultados 
+Dato2=txtpantalla.getText();
+If(!dato2.equals(''')){
+Resultado=calculadora(Dato1,Dato2,signo);
+Txtpantalla.setText(resultado);
+{
+
+
+Public static string calculadora (string dato1, String dato2, String signo)( 
+Double resultado=0.0
+String respuesta;
+  If(signo,equals("-")){
+  Resultado=Double.parseDouble(dato1)-Double.parseDouble(dato2);
+ }
+  If(signo,equals("+")){
+  Resultado=Double.parseDouble(dato1)+Double.parseDouble(dato2);
+ }
+  If(signo,equals("*")){
+  Resultado=Double.parseDouble(dato1)*Double.parseDouble(dato2);
+ } 
+  If(signo,equals("/")){
+  Resultado=Double.parseDouble(dato1)/Double.parseDouble(dato2);
+ }
+Respuesta=resultado.toString();
+return respuesta;
+ }
+ Public static booleand existepunto (String cadena){
+ Booleand resultado
+ Resultado=false;
+
+  For(int i=0; i< cadena length (); i++){
+   If(cadena.substring(i,i+1).equals("-")){
+    Resultado=trae;
+    Break;
+   }
+{
+ Return resultado;
+
+}
