@@ -7,6 +7,7 @@ PROFESOR LEONARDO
 ESCUELA: CETis 64
 Centro de estudios tecnológico industrial y de servicios
 
+
 git remoto agregar origen https://github.com/camacho89/angel.git
  git rama -M principal 
 git push -u origen principal
